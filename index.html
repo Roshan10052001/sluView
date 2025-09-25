@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLUview</title>
+  <link rel="stylesheet" href="slu.css">
+</head>
+<body>
+  <header>
+    <h1>SLUview</h1>
+    <p>Discover local businesses & honest reviews</p>
+  </header>
+
+  <main class="container">
+    <!--Filters -->
+    <section class="column filters">
+      <h2>Filters</h2>
+      <label>Category</label>
+      <select>
+        <option>Cafe</option>
+        <option>Bakery</option>
+        <option>Food Truck</option>
+      </select>
+      <br><br>
+      <label>Price</label>
+      <select>
+        <option>$</option>
+        <option>$$</option>
+        <option>$$$</option>
+      </select>
+      <br><br>
+      <label>Rating</label>
+      <select>
+        <option>4+ Stars</option>
+        <option>3+ Stars</option>
+        <option>All</option>
+      </select>
+    </section>
+
+    <!-- Featured Businesses -->
+    <section class="column businesses">
+      <h2>Featured Businesses</h2>
+      <div class="business-card">
+        <h3>Pint Size Bakery</h3>
+        <p>Category: Bakery | Location: St. Louis, MO | Price: $$ | Rating: 4.8</p>
+        <p>Famous for cupcakes, cookies, and seasonal specialties.</p>
+      </div>
+      <div class="business-card">
+        <h3>Kamikaze Poke</h3>
+        <p>Category: Food Truck | Location: Des Peres, MO | Price: $$ | Rating: 4.6</p>
+        <p>Fresh poke bowls and Hawaiian-inspired flavors.</p>
+      </div>
+      <div class="business-card">
+        <h3>Kaldi's Coffee</h3>
+        <p>Category: Cafe | Location: St. Louis, MO | Price: $ | Rating: 4.7</p>
+        <p>Popular local coffee roaster with artisan drinks.</p>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="column reviews">
+      <h2>Latest Reviews</h2>
+      <div id="reviews"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>SLUview © 2025</p>
+  </footer>
+
+  <!--load reviews dynamically -->
+  <script src="app.js"></script>
+</body>
+</html>

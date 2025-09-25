@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+/* Columns */
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 0.5rem;
+}
+
+.filters, .businesses, .reviews {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+/* Section Titles */
+.filters h2, .businesses h2, .reviews h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #003366;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Cards */
+.business-card, .review-card {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  background: #fff;
+}
+
+.business-card h3, .review-card h4 {
+  margin: 0 0 0.25rem 0;
+  font-weight: bold;
+  color: #222;
+}
+
+.review-card p {
+  margin: 0.25rem 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* Responsive Layout */
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1 1 45%; 
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .column {
+    flex: 1 1 100%; 
+  }
+}
