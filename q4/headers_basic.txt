@@ -1,0 +1,25 @@
+HTTP/1.1 403 Forbidden
+Connection: keep-alive
+Content-Length: 779
+Content-Type: text/html;charset=utf-8
+Server: DataDome
+X-DataDome: protected
+Accept-CH: Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory
+Charset: utf-8
+Cache-Control: max-age=0, private, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-dd-b, x-set-cookie
+Access-Control-Allow-Origin: *
+X-DataDome-CID: AHrlqAAAAAMAC_8Ukv7SpOIApYbUVQ==
+X-DD-B: 2
+Set-Cookie: datadome=mUOENe7STS6ab4ThjPW1~ZwD8Lz2aE2QoYCwGcqu8eQH_BNZMgv3BIi1wFNHytvyOrLk7oS5IY3~tHP197~AAze5OIjf2g314lj9yf6XrJpyP1yPZBd4~aJUYkqYb7La; Max-Age=31536000; Domain=.yelp.com; Path=/; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Date: Thu, 25 Sep 2025 18:36:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-stl760032-STL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1758825378.900672,VS0,VE20
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
